@@ -2,37 +2,37 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="390223" started-at="2020-04-09T14:47:10 IST" finished-at="2020-04-09T14:53:40 IST">
+  <suite name="Suite" duration-ms="55503" started-at="2020-04-15T15:25:37 IST" finished-at="2020-04-15T15:26:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="390223" started-at="2020-04-09T14:47:10 IST" finished-at="2020-04-09T14:53:40 IST">
+    <test name="Test" duration-ms="55503" started-at="2020-04-15T15:25:37 IST" finished-at="2020-04-15T15:26:33 IST">
       <class name="com.bluestacks.tests.TestClass">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bluestacks.tests.TestClass@5aa9e4eb]" name="beforeTest" is-config="true" duration-ms="80377" started-at="2020-04-09T14:47:10 IST" finished-at="2020-04-09T14:48:30 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bluestacks.tests.TestClass@5e853265]" name="beforeTest" is-config="true" duration-ms="20418" started-at="2020-04-15T15:25:37 IST" finished-at="2020-04-15T15:25:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:com.bluestacks.tests.TestClass@5aa9e4eb]" name="test" duration-ms="306315" started-at="2020-04-09T14:48:30 IST" finished-at="2020-04-09T14:53:37 IST">
+        <test-method status="FAIL" signature="test()[pri:0, instance:com.bluestacks.tests.TestClass@5e853265]" name="test" duration-ms="33991" started-at="2020-04-15T15:25:58 IST" finished-at="2020-04-15T15:26:32 IST">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+  (Session info: chrome=81.0.4044.92)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KFSEVJ6', ip: '192.168.43.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-KFSEVJ6', ip: '192.168.31.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Saurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5716ee325f59681ccc5aca309ebf8bc4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Saurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5d962777a6035a7e58f1d068833ca28c
 *** Element info: {Using=class name, value=games-item}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+  (Session info: chrome=81.0.4044.92)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KFSEVJ6', ip: '192.168.43.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-KFSEVJ6', ip: '192.168.31.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Saurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5716ee325f59681ccc5aca309ebf8bc4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Saurav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5d962777a6035a7e58f1d068833ca28c
 *** Element info: {Using=class name, value=games-item}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -86,11 +86,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.bluestacks.tests.TestClass@5aa9e4eb]" name="afterTest" is-config="true" duration-ms="3402" started-at="2020-04-09T14:53:37 IST" finished-at="2020-04-09T14:53:40 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.bluestacks.tests.TestClass@5e853265]" name="afterTest" is-config="true" duration-ms="960" started-at="2020-04-15T15:26:32 IST" finished-at="2020-04-15T15:26:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.bluestacks.tests.TestClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
